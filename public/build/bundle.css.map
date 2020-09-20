@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "CountryRandom.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n    export let country;\n</script>\n<style>\n    div {\n        font-size: 100px;\n    }\n    p {\n        font-size: 50px;\n    }\n</style>\n<div>\n    <div>{country.emoji}</div>\n    <p>{country.name}</p>\n</div>"
+  ],
+  "names": [],
+  "mappings": "AAII,GAAG,cAAC,CAAC,AACD,SAAS,CAAE,KAAK,AACpB,CAAC,AACD,CAAC,cAAC,CAAC,AACC,SAAS,CAAE,IAAI,AACnB,CAAC"
+}
